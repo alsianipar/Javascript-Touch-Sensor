@@ -37,7 +37,7 @@
 }
 .app .touch-info{
     position: absolute;
-    bottom: 5px;
+    bottom: 20px;
     padding: 10px;
     font-size: 2rem;
     display: flex;
