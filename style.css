@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    border: 5px solid red;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.app h1{
+    text-align: center;
+    color: blueviolet;
+    font-size: 1.4rem;
+}
+
+.app .touch-cordinat{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.app .touch-cordinat span{
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.app .touch-info{
+    position: absolute;
+    bottom: 5px;
+    padding: 10px;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.app .touch-info span{
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
